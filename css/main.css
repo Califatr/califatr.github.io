@@ -35,13 +35,9 @@ body {
   height: 10%;
 
 }
-@media screen and (min-width: 480px) and (max-width: 1080px) {
+@media screen and (min-width: 360px) and (max-width: 1080px) {
 .textmyperspage {
-<<<<<<< HEAD
   font-size: 22px;
-=======
-  font-size: 30px;
->>>>>>> parent of d695334 (12)
 }
 }
 
@@ -62,10 +58,9 @@ body {
   color: rgba(17,17,17,1);
   padding: 20px;
 }
-@media screen and (min-width: 480px) and (max-width: 1080px) {
+@media screen and (min-width: 360px) and (max-width: 1080px) {
   .welcome-text
   {
-<<<<<<< HEAD
     font-size: 15px;
   }
   }
@@ -73,19 +68,10 @@ body {
   {
     font-size: 38px;
   }  
-@media screen and (min-width: 480px) and (max-width: 1080px) {
+@media screen and (min-width: 360px) and (max-width: 1080px) {
 .welcome-text>b
 {
   font-size: 17px;
-=======
-    font-size: 25px;
-  }
-  }
-@media screen and (min-width: 480px) and (max-width: 768px) {
-.welcome-text>b
-{
-  font-size: 28px;
->>>>>>> parent of d695334 (12)
 }
 }
 
@@ -110,14 +96,10 @@ body {
   color: #fff;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1080px) {
+@media screen and (min-width: 360px) and (max-width: 1080px) {
 .maintext2
 {
-<<<<<<< HEAD
   font-size: 20px;
-=======
-  font-size: 25px;
->>>>>>> parent of d695334 (12)
 }
 }
 .contacts-row
@@ -149,13 +131,9 @@ body {
   flex-direction: column;
   align-items: flex-end;
 }
-@media screen and (min-width: 480px) and (max-width: 1080px) {
+@media screen and (min-width: 360px) and (max-width: 1080px) {
   .contacts-block {
-<<<<<<< HEAD
     font-size: 12px;
-=======
-    font-size: 15px;
->>>>>>> parent of d695334 (12)
   }
 }
 
