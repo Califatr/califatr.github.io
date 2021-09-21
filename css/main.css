@@ -37,7 +37,7 @@ body {
 }
 @media screen and (min-width: 480px) and (max-width: 768px) {
 .textmyperspage {
-  font-size: 30px;
+  font-size: 25px;
 }
 }
 
@@ -61,13 +61,17 @@ body {
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .welcome-text
   {
-    font-size: 25px;
+    font-size: 18px;
   }
   }
+  .welcome-text>b
+  {
+    font-size: 38px;
+  }  
 @media screen and (min-width: 480px) and (max-width: 768px) {
 .welcome-text>b
 {
-  font-size: 28px;
+  font-size: 19px;
 }
 }
 
@@ -95,7 +99,7 @@ body {
 @media screen and (min-width: 480px) and (max-width: 768px) {
 .maintext2
 {
-  font-size: 25px;
+  font-size: 23px;
 }
 }
 .contacts-row
@@ -129,7 +133,7 @@ body {
 }
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .contacts-block {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
