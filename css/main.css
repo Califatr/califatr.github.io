@@ -153,6 +153,8 @@ body {
 {
   transition: .2s ease-in-out;
   cursor: pointer;
+  color: #fff;
+  text-decoration: none;
 }
 
 .contact-item:hover
