@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 body {
   font-size: 14px;
@@ -11,25 +12,33 @@ body {
 .background {
   width: 100%;
   height: 1080px;
-  background: linear-gradient(rgb(102, 247, 213), rgba(108,147,138,0.28999999165534973));
+  background: linear-gradient(rgba(108,147,138,1), rgba(108,147,138,0.28999999165534973));
   z-index: -1;
 }
+
 .mainrect {
+  
   max-width: 1080px;
   width: 100%;
   height: 1080px;
-  background: linear-gradient(rgba(49,199,172,1), rgba(17,107,100,0.6700000166893005));
+  background: linear-gradient(rgba(49,199,172,1), rgba(17,87,70,0.6700000166893005));
   margin: 0 auto;
-}
-
+}  
 .textmyperspage {
   width: 100%;
   color: #fff;
   font-size: 50px;
+
   display: flex;
   margin-left: 10%;
   align-items: center;
   height: 10%;
+
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+.textmyperspage {
+  font-size: 30px;
+}
 }
 
 .welcome-row
@@ -40,7 +49,6 @@ body {
   height: 38%;
 }
 
-
 .welcome-text
 {
   width: 60%;
@@ -50,10 +58,17 @@ body {
   color: rgba(17,17,17,1);
   padding: 20px;
 }
-
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .welcome-text
+  {
+    font-size: 25px;
+  }
+  }
+@media screen and (min-width: 480px) and (max-width: 768px) {
 .welcome-text>b
 {
-  font-size: 50px;
+  font-size: 28px;
+}
 }
 
 .myphoto {
@@ -77,6 +92,12 @@ body {
   color: #fff;
 }
 
+@media screen and (min-width: 480px) and (max-width: 768px) {
+.maintext2
+{
+  font-size: 25px;
+}
+}
 .contacts-row
 {
   width: 100%;
@@ -88,11 +109,11 @@ body {
 
 .designpic 
 {
-  width: 45%;
+  width: 40%;
   height: 90%;
   background: url("../images/pepe.png");
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: top center;
   background-size: contain;
   margin: 0 10%;
 }
@@ -106,6 +127,11 @@ body {
   flex-direction: column;
   align-items: flex-end;
 }
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .contacts-block {
+    font-size: 15px;
+  }
+}
 
 .contacts-container
 {
@@ -114,15 +140,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0 20%;
+  margin: 0 15%;
 }
 
 .contact-item
 {
   transition: .2s ease-in-out;
   cursor: pointer;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
 }
 
 .contact-item:hover
