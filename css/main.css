@@ -29,7 +29,7 @@ body {
 .textmyperspage {
   width: 90%;
   color: #fff;
-  font-size: 50px;
+  font-size: 47px;
   
   display: flex;
   padding-left: 5%;
@@ -39,7 +39,7 @@ body {
 }
 @media screen and (min-width: 240px) and (max-width: 1080px) {
 .textmyperspage {
-  font-size: 7vw;
+  font-size: 6.8vw;
 }
 }
 
@@ -76,7 +76,6 @@ body {
   font-size: 5.4vw;
 }
 }
-
 .myphoto-block{
   overflow: hidden;
   width: 40%;
