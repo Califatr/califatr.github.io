@@ -42,7 +42,11 @@ body {
   font-size: 6.8vw;
 }
 }
-
+@media screen and (orientation: landscape) and (min-width: 650px) and (max-width: 1080px) {
+  .textmyperspage {
+    font-size: 6vw;
+  }
+}
 .welcome-row
 {
   width: 100%;
@@ -75,6 +79,11 @@ body {
 {
   font-size: 5.4vw;
 }
+}
+@media screen and (orientation: landscape) and (min-width: 650px) and (max-width: 1080px) {
+  .welcome-text {
+    font-size: 5vw;
+  }
 }
 .myphoto-block{
   overflow: hidden;
@@ -113,6 +122,11 @@ body {
   font-size: 6.5vw;
 }
 }
+@media screen and (orientation: landscape) and (min-width: 650px) and (max-width: 1080px) {
+  .maintext2 {
+    font-size: 4.7vw;
+  }
+}
 .contacts-row
 {
   width: 100%;
@@ -145,6 +159,11 @@ body {
 @media screen and (min-width: 240px) and (max-width: 1080px) {
   .contacts-block {
     font-size: 5vw;
+  }
+}
+@media screen and (orientation: landscape) and (min-width: 650px) and (max-width: 1080px) {
+  .contacts-block {
+    font-size: 4.4vw;
   }
 }
 
